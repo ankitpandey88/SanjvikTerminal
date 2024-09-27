@@ -52,7 +52,7 @@ const Footer = () => {
             <li>
               <p className="font-semibold text-lg mb-2 border-b-2 border-orange-600">Quick Links</p>
             </li>
-            {['About', 'Services', 'Retail Express', 'FAQ', 'Contact Us'].map((link) => (
+            {['About', 'Services', 'Contact Us'].map((link) => (
               <li key={link}>
                 <a href="#" className="block py-2">{link}</a>
               </li>
@@ -74,7 +74,7 @@ const Footer = () => {
             <li>
               <p className="font-semibold text-lg mb-2 border-b-2 border-orange-600">Community</p>
             </li>
-            {['Business Consulting', 'Testimonials', 'Track Your Shipment', 'Privacy Policy', 'Terms & Condition'].map((community) => (
+            {['Business Consulting',  'Privacy Policy', 'Terms & Condition'].map((community) => (
               <li key={community}>
                 <a href="#" className="block py-2">{community}</a>
               </li>
