@@ -141,12 +141,12 @@ const Footer = () => {
             </p>
             <ul className="flex justify-center md:justify-start space-x-4 ">
               <li>
-                <a href="#" className="text-black text-2xl p-3 hover:text-blue-500 transition-all duration-300 ease-in-out">
+                <a href="https://www.linkedin.com/company/sanjvik-terminals-pvt-ltd/about/" className="text-black text-2xl p-3 hover:text-blue-500 transition-all duration-300 ease-in-out">
                   <FaLinkedinIn />
                 </a>
               </li>
               <li>
-                <a href="#" className="text-black text-2xl p-3 hover:text-blue-900 transition-all duration-300 ease-in-out">
+                <a href="https://x.com/SanjvikTerminal" className="text-black text-2xl p-3 hover:text-blue-900 transition-all duration-300 ease-in-out">
                   <FaTwitter />
                 </a>
               </li>

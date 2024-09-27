@@ -274,7 +274,7 @@ function Header() {
         {/* Hamburger Menu for Mobile */}
         <div className='lg:hidden'>
           <button onClick={() => setSidebarOpen(!sidebarOpen)}>
-            <FaBars className="w-8 h-8 text-white" />
+            <FaBars className="w-8 h-8 text-black" />
           </button>
         </div>
       </div>
