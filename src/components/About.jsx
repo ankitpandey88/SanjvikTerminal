@@ -24,7 +24,7 @@ const CompanySection = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-0">
         {/* Left Side Text */}
         <div className="text-left space-y-6">
-          <h2 className="text-orange-500 text-2xl uppercase font-semibold">
+          <h2 className="text-[#00308F] text-2xl uppercase font-semibold">
             Who We Are
           </h2>
 
@@ -40,16 +40,16 @@ const CompanySection = () => {
             handling from movement to timely delivery, meeting global supply
             chain demands.
           </p>
-          <button className="text-orange-500 font-semibold">
+          <button className="text-[#00308F] font-semibold">
             More Details
           </button>
 
           {/* Buttons */}
           <div className="grid grid-cols-2 gap-4">
-            <button className="bg-gray-100 p-4 rounded-lg shadow-md hover:bg-[#002D62] animate-typewriter">
+            <button className="bg-gray-100 p-4 rounded-lg shadow-md hover:bg-[#002D62] hover:text-white animate-typewriter">
               About Our Company
             </button>
-            <button className="bg-gray-100 p-4 rounded-lg shadow-md hover:bg-[#002D62] animate-typewriter">
+            {/* <button className="bg-gray-100 p-4 rounded-lg shadow-md hover:bg-[#002D62] animate-typewriter">
               Statement of Mission
             </button>
             <button className="bg-gray-100 p-4 rounded-lg shadow-md hover:bg-[#002D62] animate-typewriter">
@@ -57,7 +57,7 @@ const CompanySection = () => {
             </button>
             <button className="bg-gray-100 p-4 rounded-lg shadow-md hover:bg-[#002D62] animate-typewriter">
               Statement of Value
-            </button>
+            </button> */}
           </div>
         </div>
 
@@ -145,7 +145,7 @@ export default CompanySection;
 //       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-6 md:px-0">
 //         {/* Left Side Text */}
 //         <div className="text-left space-y-6">
-//           <h2 className="text-orange-500 text-2xl uppercase font-semibold">
+//           <h2 className="text-[#00308F] text-2xl uppercase font-semibold">
 //             Who We Are
 //           </h2>
 
@@ -161,7 +161,7 @@ export default CompanySection;
 //             handling from movement to timely delivery, meeting global supply
 //             chain demands.
 //           </p>
-//           <button className="text-orange-500 font-semibold">
+//           <button className="text-[#00308F] font-semibold">
 //             More Details
 //           </button>
 

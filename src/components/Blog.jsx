@@ -34,12 +34,12 @@
 //       <div className="container mx-auto px-4">
 //         {/* Section Header */}
 //         <div className="flex justify-between items-center">
-//           <div className="text-orange-600 font-semibold flex items-center">
+//           <div className="text-[#00308F] font-semibold flex items-center">
 //             <FiArrowLeft className="mr-2" /> 
 //             NEWS & UPDATES
 //           </div>
 //           <h2 className="text-4xl font-bold">Latest From Our Blog Post</h2>
-//           <div className="text-orange-600 font-semibold flex items-center">
+//           <div className="text-[#00308F] font-semibold flex items-center">
 //             READ ALL NEWS 
 //             <FiArrowRight className="ml-2" />
 //           </div>
@@ -63,12 +63,12 @@
 
 //               {/* Text Below Image */}
 //               <div className="p-6 group-hover:hidden">
-//                 <div className="flex items-center justify-between text-orange-600 text-lg font-bold mb-2">
+//                 <div className="flex items-center justify-between text-[#00308F] text-lg font-bold mb-2">
 //                   <span>{post.date}</span>
 //                 </div>
 //                 <h3 className="text-xl font-bold mb-3">{post.title}</h3>
 //                 <p className="text-gray-600 mb-4">{post.description}</p>
-//                 <button className="text-orange-600 font-semibold flex items-center">
+//                 <button className="text-[#00308F] font-semibold flex items-center">
 //                   MORE DETAILS <FiArrowRight className="ml-2" />
 //                 </button>
 //               </div>
@@ -80,7 +80,7 @@
 //                 </div>
 //                 <h3 className="text-xl font-bold mb-3">{post.title}</h3>
 //                 <p className="mb-4">{post.description}</p>
-//                 <button className="text-orange-600 font-semibold flex items-center">
+//                 <button className="text-[#00308F] font-semibold flex items-center">
 //                   MORE DETAILS <FiArrowRight className="ml-2" />
 //                 </button>
 //               </div>
@@ -128,12 +128,12 @@ const BlogSection = () => {
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="flex justify-between items-center">
-          <div className="text-orange-600 font-semibold flex items-center">
+          <div className="text-[#00308F] font-semibold flex items-center">
             <FiArrowLeft className="mr-2" /> 
             NEWS & UPDATES
           </div>
           <h2 className="text-4xl font-bold">Latest From Our Blog Post</h2>
-          <div className="text-orange-600 font-semibold flex items-center">
+          <div className="text-[#00308F] font-semibold flex items-center">
             READ ALL NEWS 
             <FiArrowRight className="ml-2" />
           </div>
@@ -157,12 +157,12 @@ const BlogSection = () => {
 
               {/* Text Always Visible Below Image */}
               <div className="p-6 transition-all duration-300 group-hover:mt-4"> 
-                <div className="flex items-center justify-between text-orange-600 text-lg font-bold mb-2">
+                <div className="flex items-center justify-between text-[#00308F] text-lg font-bold mb-2">
                   <span>{post.date}</span>
                 </div>
                 <h3 className="text-xl font-bold mb-3">{post.title}</h3>
                 <p className="text-gray-600 mb-4">{post.description}</p>
-                <button className="text-orange-600 font-semibold flex items-center">
+                <button className="text-[#00308F] font-semibold flex items-center">
                   MORE DETAILS <FiArrowRight className="ml-2" />
                 </button>
               </div>

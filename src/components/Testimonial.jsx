@@ -100,7 +100,7 @@ const TestimonialsSlider = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold">1000+ Happy Customers Said</h2>
-          <p className="text-orange-500 mt-2 text-3xl font-bold">Testimonials</p>
+          <p className="text-[#00308F] mt-2 text-3xl font-bold">Testimonials</p>
         </div>
 
         <div className="relative overflow-hidden">
@@ -130,7 +130,7 @@ const TestimonialsSlider = () => {
                   </div>
                   <h3 className="text-lg font-semibold">{testimonial.name}</h3>
                   <p className="text-sm text-gray-500">{testimonial.role}</p>
-                  <div className="text-orange-500 mt-2">
+                  <div className="text-[#00308F] mt-2">
                     {'⭐'.repeat(Math.floor(testimonial.rating))}
                     {testimonial.rating % 1 !== 0 && '⭐'}
                   </div>
@@ -142,13 +142,13 @@ const TestimonialsSlider = () => {
           {/* Next/Prev Buttons */}
           <button
             onClick={prevSlide}
-            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-orange-500 text-white p-2 rounded-full z-10"
+            className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-[#00308F] text-white p-2 rounded-full z-10"
           >
             &#10094;
           </button>
           <button
             onClick={nextSlide}
-            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-orange-500 text-white p-2 rounded-full z-10"
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#00308F] text-white p-2 rounded-full z-10"
           >
             &#10095;
           </button>
