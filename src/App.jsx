@@ -27,6 +27,10 @@ import Traffic from './components/Traffics';
 import Policys from './components/Policy';
 import Media from './components/Media';
 import Contacts from './components/Contacts';
+import MultiModel from './pages/MultiModel';
+import TerminalManagement from './pages/TerminalManagement';
+import CustomClearance from './pages/CustomClearance';
+import Warehousing from './pages/Warehousing';
 
 function App() {
   return (
@@ -39,7 +43,12 @@ function App() {
         <Route path="/policy" element={<Policys/>} /> 
         <Route path="/media" element={<Media/>} /> 
         <Route path="/contact" element={<Contacts/>} />
+        <Route path="/multi-model-transportation" element={ <MultiModel/>}/>
+        <Route path="/terminal-management" element={<TerminalManagement/>}/>
+        <Route path="/custom-clearance" element={<CustomClearance/>}/>
+        <Route path="/warehousing" element={<Warehousing/>}/>
       </Routes>
+     
       
     </Router>
     
