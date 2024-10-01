@@ -2,10 +2,12 @@
 
 import React from 'react';
 import { motion } from 'framer-motion'; // Ensure you have installed framer-motion
+import Footer from './Footer';
 
 const ServiceSection = () => {
   return (
-    <section className="bg-alice-blue py-12" id="service" aria-label="service">
+    <div>
+      <section className="bg-alice-blue py-12" id="service" aria-label="service">
       <div className="container mx-auto text-center">
         <p className="text-[#00308F] uppercase font-bold text-2xl mb-2">Our Services</p>
         <h2 className="text-prussian-blue text-4xl font-semibold mb-5">Trusted For Our Services</h2>
@@ -19,6 +21,8 @@ const ServiceSection = () => {
         </ul>
       </div>
     </section>
+    <Footer/>
+    </div>
   );
 };
 
