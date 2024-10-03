@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion'; // Ensure you have installed framer-motion
-import Footer from './Footer';
+
 
 const ServiceSection = () => {
   return (
@@ -21,7 +21,7 @@ const ServiceSection = () => {
         </ul>
       </div>
     </section>
-    <Footer/>
+
     </div>
   );
 };
@@ -81,7 +81,7 @@ const services = [
     title: 'Warehousing',
     description: 'Advance, secure, and efficient warehousing and spacing solutions.',
     image: './landingPage/landing3.png',
-    url: '/warehousing' // Add URL for this service
+    url: '/warehouse' // Add URL for this service
   },
 ];
 

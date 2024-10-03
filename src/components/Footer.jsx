@@ -124,9 +124,9 @@ const Footer = () => {
           <div className="footer-brand text-center md:text-left">
             <Link to="/" className="flex justify-center md:justify-start items-center text-black text-2xl font-bold no-underline">
               <img
-                src="./Sanjvik logo .png"
+                src="./landingPage/mainlog.png"
                 alt="Logo"
-                className="w-54 h-12 mr-2 mt-2"
+                className="w-58 h-14 mr-2 mt-2"
               />
             </Link>
             <p className="text-lg text-gray-700 mt-5">
@@ -188,7 +188,7 @@ const Footer = () => {
             <li>
               <p className="font-semibold text-lg mb-2">Join Us</p>
             </li>
-            {['Contact Us', 'Privacy Policy', 'Terms & Condition', 'Careers', 'FAQ'].map((link) => (
+            {['Contact Us', 'Privacy Policy', 'Terms & Condition', 'Careers'].map((link) => (
               <li key={link}>
                 <Link
                   to={`/${link.replace(/\s+/g, '-').toLowerCase()}`} // Converts the name to lowercase and replaces spaces with dashes

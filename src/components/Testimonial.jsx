@@ -57,6 +57,30 @@ const testimonials = [
     review: 'A wonderful experience from start to finish for everyone.',
     rating: 5,
   },
+  {
+    id: 2,
+    name: 'Nathan Felix',
+    role: 'CEO, High Rise Construction',
+    image: '/landingPage/test2.jpg',
+    review: 'I am highly impressed with  professionalism people in this warehouse...',
+    rating: 4.5,
+  },
+  {
+    id: 3,
+    name: 'John Doe',
+    role: 'Manager, Bluewave Inc',
+    image: '/landingPage/test3.jpg',
+    review: 'Excellent service, the team went above and beyond my expectations.',
+    rating: 5,
+  },
+  {
+    id: 4,
+    name: 'Jane Smith',
+    role: 'CEO, StartUp LLC',
+    image: '/landingPage/test4.jpg',
+    review: 'The best experience I’ve ever had. Professional and dedicated staff.',
+    rating: 4,
+  },
 ];
 
 const TestimonialsSlider = () => {

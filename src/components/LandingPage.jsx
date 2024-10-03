@@ -8,8 +8,7 @@ import Footer from './Footer';
 import OurFacility from './Overview';
 import StrategicLocation from './StrategicLocation';
 import SanjvikOverview from './Vision';
-import ProjectSection from './ProjectSection';
-import Newsletter from './NewsLatter';
+
 import Testimonial from './Testimonial';
 import BlogSection from './Blog';
 
@@ -21,10 +20,10 @@ function LandingPage() {
         <AboutSection/>
         <ServiceSection/>
         <OurFacility/>
-        {/* <ProjectSection/> */}
+      
         <StrategicLocation/>
-        <SanjvikOverview/>
-        {/* <Newsletter/> */}
+        {/* <SanjvikOverview/> */}
+      
         <Testimonial/>
         <BlogSection/>
         

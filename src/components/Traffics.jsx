@@ -5,7 +5,7 @@ import Footer from './Footer';
 const Traffic = () => {
   const openPDF = () => {
     // Assuming you have a PDF hosted at this path
-    window.open('/pdf/10 marksheet.pdf');
+    window.open('/pdf/ICD Bawal Tariff - STPL.pdf');
   };
 
   return (
