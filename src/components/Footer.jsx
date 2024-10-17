@@ -154,7 +154,7 @@ const Footer = () => {
             <li>
               <p className="font-semibold text-lg mb-2">Quick Links</p>
             </li>
-            {['About', 'Environmental Policy', 'Media Releases', 'Traffic Overview'].map((link) => (
+            {['About', 'Environmental Policy', 'Media Releases', 'Tariffs Overview'].map((link) => (
               <li key={link}>
                 <Link
                   to={`/${link.replace(/\s+/g, '-').toLowerCase()}`} // Converts the name to lowercase and replaces spaces with dashes
@@ -188,7 +188,7 @@ const Footer = () => {
             <li>
               <p className="font-semibold text-lg mb-2">Join Us</p>
             </li>
-            {['Contact Us', 'Privacy Policy', 'Terms & Condition', 'Careers'].map((link) => (
+            {['Careers','Contact Us', 'Privacy Policy', 'Terms & Condition' ].map((link) => (
               <li key={link}>
                 <Link
                   to={`/${link.replace(/\s+/g, '-').toLowerCase()}`} // Converts the name to lowercase and replaces spaces with dashes

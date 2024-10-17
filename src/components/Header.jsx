@@ -466,7 +466,7 @@ function Header() {
           </div>
 
           {/* Tariffs -> Redirect to /traffic-overview */}
-          <Link to="/traffic-overview" className={linkClasses}>Tariffs</Link>
+          <Link to="/tariffs-overview" className={linkClasses}>Tariffs</Link>
 
           {/* Policy -> Redirect to /environmental-policy */}
           <Link to="/environmental-policy" className={linkClasses}>CRS Policy</Link>
@@ -501,7 +501,7 @@ function Header() {
                 { name: "Home", link: "/" },
                 { name: "Overview", link: "/overview" },
                 { name: "Services", link: "/services" },
-                { name: "Tariffs", link: "/traffic-overview" },
+                { name: "Tariffs", link: "/tariffs-overview" },
                 { name: "Policy", link: "/environmental-policy" },
                 { name: "Media", link: "/media-releases" },
                 { name: "Careers", link: "/careers" },
