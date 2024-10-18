@@ -6,7 +6,7 @@ import { AiOutlineClose } from 'react-icons/ai';
 import Footer from './Footer';
 
 const Career = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [ismodelOpen, setIsmodelOpen] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const jobOpenings = [
@@ -58,7 +58,7 @@ const Career = () => {
     e.preventDefault();
     setIsSubmitted(true);
     setTimeout(() => {
-      setIsModalOpen(false);
+      setIsmodelOpen(false);
       setIsSubmitted(false);
     }, 2000);
   };
@@ -81,7 +81,7 @@ const Career = () => {
               <p className="text-gray-600">{job.department} | {job.location}</p>
               <p className="mt-4 text-gray-700">{job.description}</p>
               <button
-                onClick={() => setIsModalOpen(true)}
+                onClick={() => setIsmodelOpen(true)}
                 className="mt-6 bg-[#00308F] text-white px-4 py-2 rounded transition duration-200 hover:bg-blue-600"
               >
                 Apply Now
@@ -90,11 +90,11 @@ const Career = () => {
           ))}
         </div>
 
-        {isModalOpen && (
+        {ismodelOpen && (
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
             <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md relative">
               <button
-                onClick={() => setIsModalOpen(false)}
+                onClick={() => setIsmodelOpen(false)}
                 className="absolute top-4 right-4 text-gray-600 hover:text-gray-900"
               >
                 <AiOutlineClose className="text-2xl" />

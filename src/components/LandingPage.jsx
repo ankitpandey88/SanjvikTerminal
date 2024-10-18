@@ -11,18 +11,20 @@ import SanjvikOverview from './Vision';
 
 import Testimonial from './Testimonial';
 import BlogSection from './Blog';
+import GroupOfCompany from '../pages/GroupOfCompany';
 
 function LandingPage() {
   return (
     <>
-      <div>
+      <div className="overflow-x-hidden">
         <Hero/>
         <AboutSection/>
         <ServiceSection/>
         <OurFacility/>
       
         <StrategicLocation/>
-        {/* <SanjvikOverview/> */}
+       
+        <GroupOfCompany/>
       
         <Testimonial/>
         <BlogSection/>

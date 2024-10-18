@@ -62,7 +62,7 @@
 //             <li>
 //               <p className="font-semibold text-lg mb-2">Services</p>
 //             </li>
-//             {['Warehouse', 'Multi-Model Transportation', 'Terminal Management', 'Custom Clearance'].map((service) => (
+//             {['Warehouse', 'Multi-model Transportation', 'Terminal Management', 'Custom Clearance'].map((service) => (
 //               <li key={service}>
 //                 <a
 //                   href="#"
@@ -171,7 +171,7 @@ const Footer = () => {
             <li>
               <p className="font-semibold text-lg mb-2">Services</p>
             </li>
-            {['Warehouse', 'Multi-Model Transportation', 'Terminal Management', 'Custom Clearance'].map((service) => (
+            {[ 'Multi-modal Transportation', 'Terminal Management', 'Custom Clearance ','Warehouse'].map((service) => (
               <li key={service}>
                 <Link
                   to={`/${service.replace(/\s+/g, '-').toLowerCase()}`} // Converts the name to lowercase and replaces spaces with dashes

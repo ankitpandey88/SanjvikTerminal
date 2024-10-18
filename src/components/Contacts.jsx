@@ -6,7 +6,7 @@
 // import Footer from './Footer';
 
 // const Contacts = () => {
-//   const [isModalOpen, setIsModalOpen] = useState(false);
+//   const [ismodelOpen, setIsmodelOpen] = useState(false);
 //   const [formData, setFormData] = useState({
 //     name: '',
 //     email: '',
@@ -21,7 +21,7 @@
 
 //   const handleSubmit = (e) => {
 //     e.preventDefault();
-//     setIsModalOpen(true);
+//     setIsmodelOpen(true);
 //     setFormData({ name: '', email: '', contactNumber: '', message: '' }); // Reset the form
 //   };
 
@@ -85,18 +85,18 @@
 //         </form>
 //       </div>
 
-//       {isModalOpen && (
+//       {ismodelOpen && (
 //         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-40 z-50">
 //           <div className="bg-white rounded-lg p-6 shadow-lg transform transition-all duration-300">
 //             <div className="flex justify-between items-center mb-4">
 //               <h3 className="text-lg font-bold">Thank You!</h3>
-//               <button onClick={() => setIsModalOpen(false)}>
+//               <button onClick={() => setIsmodelOpen(false)}>
 //                 <AiOutlineClose className="text-xl text-gray-800" />
 //               </button>
 //             </div>
 //             <p>Your message has been sent successfully!</p>
 //             <button
-//               onClick={() => setIsModalOpen(false)}
+//               onClick={() => setIsmodelOpen(false)}
 //               className="mt-4 w-full bg-gray-800 text-white py-2 rounded-lg hover:bg-gray-900 transition duration-200"
 //             >
 //               Close

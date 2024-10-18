@@ -5,16 +5,16 @@ import React from 'react';
 import { FaRoad, FaShip, FaTrain } from 'react-icons/fa';
 import Footer from '../components/Footer';
 
-const MultiModalTransport = () => {
+const MultimodelTransport = () => {
   const offerings = [
     "Optimized transit routes",
     "Linkage with FOIS to provide transparency",
-    "Cross-modal expertise",
+    "Cross-model expertise",
     "Flexible scheduling",
     "Enhanced infrastructure utilization",
     "Dynamic load management",
     "Comprehensive logistics integration",
-    "Efficient intermodal hubs",
+    "Efficient intermodel hubs",
     "Customized freight solutions",
     "Dedicated customer support",
   ];
@@ -23,9 +23,9 @@ const MultiModalTransport = () => {
 
     <div>
       <div className="p-5 flex flex-col items-center">
-      <h1 className="text-4xl  text-[#00308F] font-bold mb-5">Multi-Modal Transportation</h1>
+      <h1 className="text-4xl  text-[#00308F] font-bold mb-5">Multi-model Transportation</h1>
       <p className="text-center mb-5">
-        At Sanjvik Terminals, we specialize in offering comprehensive multi-modal transportation solutions, seamlessly integrating road, rail, and sea transport to meet the unique needs of our customers. This integrated approach allows us to offer flexible and cost-effective solutions that optimize logistics operations. Our strategic location and advanced infrastructure enable us to ensure smooth transitions between different modes of transport. One of the key advantages of our multi-modal transportation service is our ability to provide seamless first-mile and last-mile connectivity.
+        At Sanjvik Terminals, we specialize in offering comprehensive multi-model transportation solutions, seamlessly integrating road, rail, and sea transport to meet the unique needs of our customers. This integrated approach allows us to offer flexible and cost-effective solutions that optimize logistics operations. Our strategic location and advanced infrastructure enable us to ensure smooth transitions between different modes of transport. One of the key advantages of our multi-model transportation service is our ability to provide seamless first-mile and last-mile connectivity.
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {offerings.map((offering, index) => (
@@ -48,4 +48,4 @@ const MultiModalTransport = () => {
   );
 };
 
-export default MultiModalTransport;
+export default MultimodelTransport;

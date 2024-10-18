@@ -61,7 +61,7 @@ const ServiceItem = ({ service }) => {
 
 const services = [
   {
-    title: 'Multi-Model Transportation',
+    title: 'Multi-model Transportation',
     description: 'Our aim is to optimize and improve your supply chain.',
     image: './landingPage/truck-1.jpg',
     url: '/multi-model-transportation' // Add URL for this service
