@@ -154,7 +154,7 @@ const services = [
     title: 'Multi-model Transportation',
     description: 'Our aim is to optimize and improve your supply chain.',
     image: './Banners/Multi Modal - Banner.svg',
-    url: '/multi-model-transportation' // Add URL for this service
+    url: '/multi-modal-transportation' // Add URL for this service
   },
   {
     title: 'Terminal Management',
@@ -166,7 +166,7 @@ const services = [
     title: 'Custom Clearance',
     description: 'Customs clearance for faster shipping.',
     image: './Banners/Custom Clearance - Banner.svg',
-    url: '/custom-clearance' // Add URL for this service
+    url: '/custom-clearance-' // Add URL for this service
   },
   {
     title: 'Warehousing',

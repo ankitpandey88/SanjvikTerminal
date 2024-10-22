@@ -317,15 +317,15 @@ const offeringsData = [
     icon: <FaTools />,
   },
   {
-    title: 'Sustainable Container Repairing',
+    title: ' Container Repairing',
     description:
-      'At Sanjvik, we offer sustainable in-house container repair and maintenance services, equipped with advanced eco-friendly technology. Our skilled technicians are committed to performing thorough inspections, repairs, and maintenance while minimizing environmental impact. Our dedicated facility is designed to handle various repair needs, ensuring that containers are maintained to the highest standards of sustainability.',
+      'At Sanjvik, we offer comprehensive in-house container repair and maintenance services equipped with advanced technology and equipment. Our dedicated facility is designed to handle a wide range of repair needs, ensuring that containers are maintained to the highest standards. With ample space allocated for these activities, we can efficiently manage and execute repairs, minimizing downtime and ensuring that containers are returned to service promptly. Our skilled technicians use the latest equipment to perform thorough inspections, repairs and maintenance, ensuring the reliability and safety of your containers throughout their operational lifespan.',
     icon: <FaWarehouse />,
   },
   {
-    title: 'Green Container Leasing',
+    title: ' Container Leasing',
     description:
-      'We provide a range of high-quality, eco-friendly containers available for lease. Our container leasing service offers a flexible and cost-effective solution that meets your shipping and storage needs while being kind to the Earth. Our leasing facility accommodates various requirements, ensuring your cargo is securely transported and stored, with tailored leasing options that optimize your supply chain operations and promote overall sustainability.',
+      'We offer a range of high-quality containers available for lease. Our container leasing service provides a flexible and cost-effective solution to meet your shipping and storage needs. Our leasing facility is designed to accommodate various requirements, from short-term projects to long-term container leasing solutions. With well-maintained containers and efficient service, we ensure that your cargo is securely transported and stored. Our dedicated team works closely with you to provide tailored leasing options, optimizing your supply chain operations and enhancing overall efficiency.',
     icon: <FaShippingFast />,
   },
 ];

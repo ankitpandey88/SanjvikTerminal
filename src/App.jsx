@@ -92,9 +92,9 @@ function App() {
         <Route path="/environmental-policy" element={<Policys />} /> 
         <Route path="/media-releases" element={<Media />} /> 
         <Route path="/contact-us" element={<Contacts />} />
-        <Route path="/multi-model-transportation" element={<MultimodelTransport />} />
+        <Route path="/multi-modal-transportation" element={<MultimodelTransport />} />
         <Route path="/terminal-management" element={<TerminalManagement />} />
-        <Route path="/custom-clearance" element={<CustomClearance />} />
+        <Route path="/custom-clearance-" element={<CustomClearance />} />
         <Route path="/Warehouse" element={<Warehousing />} />
         <Route path="/about" element={<AboutDetails />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
