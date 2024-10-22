@@ -65,7 +65,7 @@ import Traffic from './components/Traffics';
 import Policys from './components/Policy';
 import Media from './components/Media';
 import Contacts from './components/Contacts';
-// import Multimodel from './pages/Multimodel';
+
 import TerminalManagement from './pages/TerminalManagement';
 import CustomClearance from './pages/CustomClearance';
 import Warehousing from './pages/Warehousing';
@@ -78,6 +78,7 @@ import Services from './pages/Services';
 import OurFacilities from './pages/OurFacality';
 import MainOverviews from './components/MainOverview';
 import ScrollToTop from './components/ScrollToTop'; // Import the ScrollToTop component
+import MultimodelTransport from './pages/MultiModel';
 
 function App() {
   return (
@@ -91,7 +92,7 @@ function App() {
         <Route path="/environmental-policy" element={<Policys />} /> 
         <Route path="/media-releases" element={<Media />} /> 
         <Route path="/contact-us" element={<Contacts />} />
-        {/* <Route path="/multi-model-transportation" element={<Multimodel />} /> */}
+        <Route path="/multi-model-transportation" element={<MultimodelTransport />} />
         <Route path="/terminal-management" element={<TerminalManagement />} />
         <Route path="/custom-clearance" element={<CustomClearance />} />
         <Route path="/Warehouse" element={<Warehousing />} />
