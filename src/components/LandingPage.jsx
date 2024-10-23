@@ -26,7 +26,7 @@ function LandingPage() {
        
         <GroupOfCompany/>
       
-        <Testimonial/>
+        {/* <Testimonial/> */}
         <BlogSection/>
         
         <Footer/>

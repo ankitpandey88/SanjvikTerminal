@@ -1,12 +1,4 @@
-// import React from 'react'
 
-// const Mission = () => {
-//   return (
-//     <div>Mission</div>
-//   )
-// }
-
-// export default Mission
 
 import React from 'react';
 import { FaTruckLoading, FaIndustry, FaRoute } from 'react-icons/fa'; // React icons

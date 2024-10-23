@@ -227,7 +227,7 @@ function Contacts() {
               className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm"
             ></textarea>
           </div>
-          {/* <div>
+          <div>
             <label className="block text-gray-700">Resume (PDF only):</label>
             <input
               type="file"
@@ -237,7 +237,7 @@ function Contacts() {
               required
               className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm"
             />
-          </div> */}
+          </div>
           <button
             type="submit"
             className="w-full bg-[#002D62] text-white p-2 rounded-md font-semibold hover:bg-[#00308F] transition"

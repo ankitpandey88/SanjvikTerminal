@@ -213,13 +213,13 @@ const ServiceItem = ({ service }) => {
         <img 
           src={service.image} 
           alt={service.title} 
-          className="w-full h-48 object-cover transition-transform duration-300 transform hover:scale-110"
+          className="w-full h-64 object-cover transition-transform duration-300 transform hover:scale-110"
         />
         <div className="absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity duration-300"></div>
         <div className="relative z-10">
           <h3 className="text-[#00308F] text-5xl mb-4">{service.icon}</h3>
           <h3 className="text-prussian-blue text-2xl font-semibold mb-2">{service.title}</h3>
-          <p className="mb-4">{service.description}</p>
+          {/* <p className="mb-4">{service.description}</p> */}
           <a 
             href={service.url} // Link to the specific service page
             className="text-[#00308F] text-lg uppercase"
@@ -235,25 +235,25 @@ const ServiceItem = ({ service }) => {
 const services = [
   {
     title: 'Multi-model Transportation',
-    description: 'Our aim is to optimize and improve your supply chain.',
+    description: '',
     image: './Banners/Multi Modal - Banner.svg',
     url: '/multi-modal-transportation' // Add URL for this service
   },
   {
     title: 'Terminal Management',
-    description: 'Efficient management of terminal operations.',
+    description: '',
     image: './Banners/Terminal Management - Banner.svg',
     url: '/terminal-management' // Add URL for this service
   },
   {
     title: 'Custom Clearance',
-    description: 'Customs clearance for faster shipping.',
+    description: '',
     image: './Banners/Custom Clearance - Banner.svg',
     url: '/custom-clearance-' // Add URL for this service
   },
   {
     title: 'Warehousing',
-    description: 'Advance, secure, and efficient warehousing and spacing solutions.',
+    description: '',
     image: './Banners/Warehousing Banner.svg',
     url: '/warehouse' // Add URL for this service
   },

@@ -1,12 +1,4 @@
-// import React from 'react'
 
-// const VisionNew = () => {
-//   return (
-//     <div>New Vision</div>
-//   )
-// }
-
-// export default VisionNew
 
 import React from 'react';
 import { FaShippingFast, FaGlobe, FaTruck } from 'react-icons/fa'; // React icons
