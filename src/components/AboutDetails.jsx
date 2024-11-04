@@ -20,7 +20,7 @@ const AboutDetails = () => {
         <img
           src="/Banners/about us.svg"
           alt="about us"
-          className="w-full h-96 object-cover"
+          className="w-full h-[80vh] object-cover"
         />
         <div className="absolute inset-0 bg-indigo-900 opacity-30 rounded-lg"></div>
         <div className="absolute inset-0 flex items-center justify-center text-center">
@@ -50,7 +50,7 @@ const AboutDetails = () => {
       </div>
 
 
-<div className="py-16 bg-gradient-to-r from-[#e3f2fd] to-[#ffffff]">
+{/* <div className="py-16 bg-gradient-to-r from-[#e3f2fd] to-[#ffffff]">
    <div className=" flex items-center justify-center text-center">
           <h1 className="text-[#002D62] text-4xl md:text-4xl font-extrabold drop-shadow-lg mb-4 "> Our Facility</h1>
         </div>
@@ -76,13 +76,13 @@ const AboutDetails = () => {
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
 
       {/* Strategic Location Section */}
       
 
-      <div className="bg-indigo-100 py-8  bg-gradient-to-r from-[#e3f2fd] to-[#ffffff]">
+      {/* <div className="bg-indigo-100 py-8  bg-gradient-to-r from-[#e3f2fd] to-[#ffffff]">
          <div className=" flex items-center justify-center text-center">
           <h1 className="text-[#002D62] text-4xl md:text-4xl font-extrabold drop-shadow-lg mb-4 "> Strategic Location</h1>
         </div>
@@ -94,7 +94,7 @@ const AboutDetails = () => {
           </p>
           
         </div>
-      </div>
+      </div> */}
 
       {/* Seamless Connectivity Section */}
 

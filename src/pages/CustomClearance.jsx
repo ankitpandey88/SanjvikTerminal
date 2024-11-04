@@ -20,7 +20,7 @@ const CustomClearance = () => {
         <img
           src="/Banners/Custom Clearance - Banner.svg"
           alt="Custom Clearance"
-          className="w-full h-96 object-cover"
+          className="w-full h-[80vh] object-cover"
         />
         <div className="absolute inset-0 bg-indigo-900 opacity-30 rounded-lg"></div>
         <div className="absolute inset-0 flex items-center justify-center text-center">
