@@ -13,7 +13,7 @@ function Hero() {
       aria-label="home"
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black opacity-25"></div>
+      <div className="absolute inset-0 "></div>
       
       {/* Main Content */}
       <div className="relative z-10 text-center p-10">

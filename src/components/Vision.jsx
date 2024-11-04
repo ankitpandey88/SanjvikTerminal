@@ -10,7 +10,7 @@ const SanjvikOverview = () => {
       {/* Vision Section */}
       <div className="flex flex-col md:flex-row items-center mb-12 animate-fade-in">
         <img
-          src="./landingPage/vision.jpg"
+          src="./Banners/vision.jpg"
           alt="Vision"
           className="w-full md:w-1/2 h-auto mb-6 md:mb-0 md:mr-8 rounded-lg shadow-lg transform transition-transform hover:scale-105 duration-500"
         />

@@ -139,16 +139,101 @@
 
 
 
+// import React, { useState } from 'react';
+// import axios from 'axios';
+// import Footer from './Footer';
+
+// function Career() {
+//   const [formData, setFormData] = useState({
+//     name: '',
+//     email: '',
+//     mobile: '',
+//     message: '',
+//     resume: null,
+//   });
+
+//   const handleChange = (e) => {
+//     const { name, value } = e.target;
+//     setFormData((prevData) => ({
+//       ...prevData,
+//       [name]: value,
+//     }));
+//   };
+
+//   const handleFileChange = (e) => {
+//     setFormData((prevData) => ({
+//       ...prevData,
+//       resume: e.target.files[0], // Save the uploaded file
+//     }));
+//   };
+
+//   const handleSubmit = async (e) => {
+//     e.preventDefault();
+
+//     const formDataWithFile = new FormData();
+//     formDataWithFile.append('name', formData.name);
+//     formDataWithFile.append('email', formData.email);
+//     formDataWithFile.append('mobile', formData.mobile);
+//     formDataWithFile.append('message', formData.message);
+//     formDataWithFile.append('resume', formData.resume);
+
+//     try {
+//       await axios.post('http://localhost:5000/send-email', formDataWithFile, {
+//         headers: {
+//           'Content-Type': 'multipart/form-data',
+//         },
+//       });
+//       alert('Email sent successfully!');
+//     } catch (error) {
+//       console.error('Error sending email:', error);
+//       alert('Failed to send email.');
+//     }
+//   };
+
+//   return (
+//     <div>
+//        <div className="min-h-96 flex">
+        
+//         <div
+//           className="w-full md:w-full bg-cover bg-center bg-no-repeat relative"
+//           style={{ backgroundImage: `url('Banners/Career.svg')` }}
+//         >
+//          <div className="bg-black bg-opacity-55 p-6  mt-16 rounded-lg space-y-4">
+           
+//             <p className='text-white text-xl'>Explore our current job openings and take the next step in your career with Sanjvik Terminals.</p>
+       
+//           </div>
+//         </div>
+
+       
+        
+//       </div>
+//       <Footer />
+//     </div>
+//   );
+// }
+
+// export default Career;
+
+
+
 import React, { useState } from 'react';
 import axios from 'axios';
 import Footer from './Footer';
 
 function Career() {
   const [formData, setFormData] = useState({
-    name: '',
+    firstName: '',
+    lastName: '',
+    contact: '',
     email: '',
-    mobile: '',
-    message: '',
+    currentStatus: 'Employed',
+    position: '',
+    currentCTC: '',
+    expectedCTC: '',
+    experience: '',
+    relocate: 'Yes',
+    immediateStart: 'Yes',
     resume: null,
   });
 
@@ -163,19 +248,16 @@ function Career() {
   const handleFileChange = (e) => {
     setFormData((prevData) => ({
       ...prevData,
-      resume: e.target.files[0], // Save the uploaded file
+      resume: e.target.files[0],
     }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     const formDataWithFile = new FormData();
-    formDataWithFile.append('name', formData.name);
-    formDataWithFile.append('email', formData.email);
-    formDataWithFile.append('mobile', formData.mobile);
-    formDataWithFile.append('message', formData.message);
-    formDataWithFile.append('resume', formData.resume);
+    Object.entries(formData).forEach(([key, value]) => {
+      formDataWithFile.append(key, value);
+    });
 
     try {
       await axios.post('http://localhost:5000/send-email', formDataWithFile, {
@@ -183,97 +265,87 @@ function Career() {
           'Content-Type': 'multipart/form-data',
         },
       });
-      alert('Email sent successfully!');
+      alert('Application submitted successfully!');
     } catch (error) {
-      console.error('Error sending email:', error);
-      alert('Failed to send email.');
+      console.error('Error submitting application:', error);
+      alert('Failed to submit application.');
     }
   };
 
   return (
     <div>
-      <div className="min-h-screen flex">
-        {/* Left Side: Background Image and Contact Details */}
+
+<div className="min-h-96 flex">
+        
         <div
-          className="w-full md:w-1/2 bg-cover bg-center bg-no-repeat relative"
+          className="w-full md:w-full bg-cover bg-center bg-no-repeat relative"
           style={{ backgroundImage: `url('Banners/Career.svg')` }}
         >
-          <div className="h-16 flex flex-col justify-center text-2xl font-semibold mb-16 items-start p-8 text-white bg-black bg-opacity-55 rounded-lg m-8">
+         <div className="bg-black bg-opacity-55 p-6  mt-16 rounded-lg space-y-4">
            
-          <p className="text-red-500 font-bold mt-4">Currently, there are no vacancies available.</p>
-           
+            <p className='text-white text-xl'>Explore our current job openings and take the next step in your career with Sanjvik Terminals.</p>
+       
           </div>
         </div>
 
-        {/* Right Side: Contact Form */}
-        <div className="w-full md:w-1/2 flex items-center mb-24 justify-center bg-white p-6">
-          <div className="bg-[#f0f4f8] bg-opacity-90 p-2 max-w-lg w-full mx-auto rounded-lg shadow-lg">
-            <h1 className="text-2xl font-bold mb-4 text-center text-[#002D62]">Contact Us</h1>
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <label className="block text-gray-700">Name:</label>
-                <input
-                  type="text"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm"
-                />
+       
+        
+      </div>
+   
+         
+      <div
+        className="min-h-screen flex items-center mt-2 justify-center bg-cover bg-center"
+        style={{ backgroundImage: `url('Banners/business-people-blue-background.jpg')` }}
+      >
+        <div className="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg max-w-3xl w-full">
+          <h1 className="text-3xl font-semibold mb-6 text-center text-gray-800">
+            Join Our Team
+          </h1>
+          <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-4">
+            <div className="grid grid-cols-2 gap-4">
+              <input type="text" placeholder="First Name" name="firstName" className="p-4 border rounded-lg outline-none" required />
+              <input type="text" placeholder="Last Name" name="lastName" className="p-4 border rounded-lg outline-none" required />
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <input type="text" placeholder="Contact" name="contact" className="p-4 border rounded-lg outline-none" required />
+              <input type="email" placeholder="Email" name="email" className="p-4 border rounded-lg outline-none" required />
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <select name="currentStatus" className="p-4 border rounded-lg outline-none" required>
+                <option value="Employed">Employed</option>
+                <option value="Unemployed">Unemployed</option>
+                <option value="Self-Employed">Self-Employed</option>
+              </select>
+              <input type="text" placeholder="Position Applying For" name="position" className="p-4 border rounded-lg outline-none" required />
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <input type="text" placeholder="Current CTC" name="currentCTC" className="p-4 border rounded-lg outline-none" required />
+              <input type="text" placeholder="Expected CTC" name="expectedCTC" className="p-4 border rounded-lg outline-none" required />
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <input type="text" placeholder="Total Experience" name="experience" className="p-4 border rounded-lg outline-none" required />
+              <div className="flex items-center">
+                <span>Relocate?</span>
+                <input type="radio" name="relocate" value="Yes" className="ml-2" /> Yes
+                <input type="radio" name="relocate" value="No" className="ml-2" /> No
               </div>
-              <div>
-                <label className="block text-gray-700">Email:</label>
-                <input
-                  type="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm"
-                />
-              </div>
-              <div>
-                <label className="block text-gray-700">Mobile:</label>
-                <input
-                  type="text"
-                  name="mobile"
-                  value={formData.mobile}
-                  onChange={handleChange}
-                  required
-                  className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm"
-                />
-              </div>
-              <div>
-                <label className="block text-gray-700">Message:</label>
-                <textarea
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm"
-                ></textarea>
-              </div>
-              <div>
-                <label className="block text-gray-700">Resume (PDF only):</label>
-                <input
-                  type="file"
-                  name="resume"
-                  accept="application/pdf"
-                  onChange={handleFileChange}
-                  required
-                  className="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm"
-                />
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-[#002D62] text-white p-2 rounded-md font-semibold hover:bg-[#00308F] transition"
-              >
-                Send
-              </button>
-            </form>
-          </div>
+            </div>
+            <div className="flex items-center">
+              <span>Start Immediately?</span>
+              <input type="radio" name="immediateStart" value="Yes" className="ml-2" /> Yes
+              <input type="radio" name="immediateStart" value="No" className="ml-2" /> No
+            </div>
+            <div>
+              <label className="block text-gray-600">Upload Resume:</label>
+              <input type="file" accept=".pdf,.doc,.docx" onChange={handleFileChange} className="mt-1 w-full border rounded-lg p-2" />
+            </div>
+            <button type="submit" className="w-full bg-[#002D62] text-white p-3 rounded-lg mt-4 hover:bg-blue-700 transition">
+              Submit Application
+            </button>
+          </form>
         </div>
       </div>
+      
       <Footer />
     </div>
   );

@@ -138,8 +138,8 @@ const OurFacilities = () => {
       {/* Dynamic Information Section */}
       <div className="p-6 md:p-10">
         <div className="bg-indigo-100 py-8">
-          <div className="max-w-6xl mx-auto bg-[#002D62] shadow-lg rounded-lg p-4">
-            <p className="mt-4 text-white leading-relaxed text-lg">
+          <div className="max-w-6xl mx-auto  bg-alice-blue shadow-lg rounded-lg p-4">
+            <p className="mt-4 text-black leading-relaxed text-lg">
             Sanjvik Terminals Pvt. Ltd. benefits from a strategic position within India's key industrial areas, offering exceptional connectivity. With its prime location and well-established transportation links, the facility is designed to streamline cargo movement, ensuring fast and efficient delivery. Our robust network of road, rail, port and airport connections enhances our ability to serve as a vital hub for businesses across India, making Sanjvik Terminals a preferred choice for logistics solutions. ICD Bawal leverage its prime location with seamless connectivity directly from the highway to the terminal. One of its advantages is the absence of "No Entry" restrictions, ensuring that vehicles can move freely and without delays both when entering and exiting the terminal
             </p>
           </div>

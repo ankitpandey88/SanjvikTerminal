@@ -227,7 +227,7 @@ function Header() {
   const handleMouseLeave = (setDropdownOpen) => {
     const timeout = setTimeout(() => {
       setDropdownOpen(false); // Close dropdown after delay
-    }, 50); // 50ms delay before closing the dropdown
+    }, 100); // 50ms delay before closing the dropdown
 
     setDropdownTimeout(timeout); // Store the timeout so we can clear it later if needed
   };

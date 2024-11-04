@@ -170,7 +170,7 @@ const TerminalManagement = () => {
           alt="Terminal Management"
           className="w-full h-96 object-cover"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <div className="absolute inset-0 bg-black bg-opacity-10 flex items-center justify-center">
           <h1 className="text-white text-6xl font-bold">Terminal Management</h1>
         </div>
       </motion.div>
@@ -178,8 +178,8 @@ const TerminalManagement = () => {
       {/* Offerings Section */}
       <div className="max-w-7xl mx-auto px-4 lg:px-8">
         <div className="bg-indigo-100 py-10">
-          <div className="max-w-6xl mx-auto bg-[#002D62] shadow-lg rounded-lg p-2">
-            <p className="mt-4 text-white leading-relaxed text-lg">
+          <div className="max-w-6xl mx-auto bg-alice-blue shadow-lg rounded-lg p-2">
+            <p className="mt-4 text-black leading-relaxed text-lg">
               With nearly 55% of containerized cargo moving into the hinterlands, the demand for efficient logistics solutions has never been greater. ICD have become essential components of the supply chain, serving as vital hubs that facilitate the smooth transfer of goods between various modes of transportation. Recognizing this need, we have established our own Inland Container Depot at Bawal.
             </p>
           </div>
@@ -194,7 +194,7 @@ const TerminalManagement = () => {
           {offeringsData.map((offering, index) => (
             <div
               key={index}
-              className={`bg-white shadow-lg rounded-lg p-8 flex items-center space-x-6 transform transition-transform duration-500 ${animate ? 'slide-in' : ''}`}
+              className={`bg-alice-blue shadow-lg rounded-lg p-8 flex items-center space-x-6 transform transition-transform duration-500 ${animate ? 'slide-in' : ''}`}
             >
               <div className="text-5xl text-[#002D62]">{offering.icon}</div>
               <div className="space-y-4">

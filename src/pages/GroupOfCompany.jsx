@@ -5,20 +5,20 @@ import React, { useState, useEffect } from 'react';
 
 // Company logos and names
 const companies = [
-  { name: 'Company 1', logo: '/groupOfCompany/120mlogo.png' },
-  { name: 'Company 2', logo: '/groupOfCompany/asahi india.png' },
-  { name: 'Company 3', logo: '/groupOfCompany/Bindal coaters.png' },
-  { name: 'Company 4', logo: '/groupOfCompany/CompLogo_1.jpg' },
-  { name: 'Company 5', logo: '/groupOfCompany/cropped-ot-logo-2.png' },
-  { name: 'Company 6', logo: '/groupOfCompany/Glasswing_Logo.png' },
-  { name: 'Company 7', logo: '/groupOfCompany/greenway-logo.png' },
-  { name: 'Company 8', logo: '/groupOfCompany/images.png' },
-  { name: 'Company 9', logo: '/groupOfCompany/impex.png' },
-  { name: 'Company 10', logo: '/groupOfCompany/INALCO_Logo_1x1_1_-removebg-preview11.png' },
-  { name: 'Company 11', logo: '/groupOfCompany/Jindal Steel and Power.png' },
-  { name: 'Company 12', logo: '/groupOfCompany/JSW.png' },
-  { name: 'Company 13', logo: '/groupOfCompany/Logo_of_APL_Logistics.png' },
-  { name: 'Company 14', logo: '/groupOfCompany/saint-gobain-logo-manufacturing-architectural-engineering-others.jpg' },
+  { name: 'Company 1', logo: '/ClientLogo/120mlogo.png' },
+  { name: 'Company 2', logo: '/ClientLogo/Asahi.png ' },
+  { name: 'Company 3', logo: '/ClientLogo/Bindal coaters.png' },
+  { name: 'Company 4', logo: '/ClientLogo/CompLogo_1.jpg' },
+  { name: 'Company 5', logo: '/ClientLogo/cropped-ot-logo-2.png' },
+  { name: 'Company 6', logo: '/ClientLogo/Glasswing_Logo.png' },
+  { name: 'Company 7', logo: '/ClientLogo/greenway-logo.png' },
+ 
+  { name: 'Company 9', logo: '/ClientLogo/Impex.png' },
+  { name: 'Company 10', logo: '/ClientLogo/INALCO_Logo_1x1_1_-removebg-preview11.png' },
+  { name: 'Company 11', logo: '/ClientLogo/Jindal Steel.png' },
+  { name: 'Company 12', logo: '/ClientLogo/JSW.png' },
+  { name: 'Company 13', logo: '/ClientLogo/Logo_of_APL_Logistics.png' },
+  { name: 'Company 14', logo: '/ClientLogo/Saint Gobain.png' },
 ];
 
 const GroupOfCompany = () => {
@@ -54,8 +54,8 @@ const GroupOfCompany = () => {
   );
 
   return (
-    <div className="container mx-auto py-10 overflow-hidden relative">
-      <h2 className="text-4xl text-[#002D62] font-bold text-center mb-8">Our Clients</h2>
+    <div className="container mx-auto py-10 overflow-hidden   relative">
+      <h2 className="text-5xl text-[#002D62] font-bold text-center mb-8">Our Clients</h2>
 
       {/* Slider Container */}
       <div
