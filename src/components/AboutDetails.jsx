@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const AboutDetails = () => {
   return (
-    <div className="relative bg-indigo-100">
+    <div className="relative ">
       
     
 
@@ -32,8 +32,8 @@ const AboutDetails = () => {
           <h1 className="text-[#002D62] text-4xl md:text-4xl font-extrabold drop-shadow-lg mb-4 mt-8">About Us</h1>
         </div>
 
-      <div className=" py-8  bg-indigo-100">
-        <div className="max-w-6xl mx-auto  bg-gradient-to-r from-[#e3f2fd] to-[#ffffff]  shadow-lg rounded-lg p-4">
+      <div className=" py-8  ">
+        <div className="max-w-6xl mx-auto  bg-white shadow-lg rounded-lg p-4">
           
           <p className="mt-4 text-black leading-relaxed text-lg">
           Sanjvik Terminals Pvt. Ltd. was incorporated in 2007 with the primary objective of developing and operating an Inland Container Depot (ICD) in Bawal. In 2024, the company was acquired by Om Logistics Ltd., a premier company in the Indian logistics and supply chain management industry. This acquisition has empowered Sanjvik Terminals to further enhance its services by leveraging Om Logistics’ vast expertise and nationwide network, making it a key contributor to the growth of India's logistics and supply chain ecosystem
@@ -99,7 +99,7 @@ const AboutDetails = () => {
       {/* Seamless Connectivity Section */}
 
       
-      <div className="bg-indigo-100 py-8  bg-gradient-to-r from-[#e3f2fd] to-[#ffffff]">
+      <div className=" py-8  bg-white">
          <div className=" flex items-center justify-center text-center">
           <h1 className="text-[#002D62] text-4xl md:text-4xl font-extrabold drop-shadow-lg mb-4 "> Seamless Connectivity</h1>
         </div>

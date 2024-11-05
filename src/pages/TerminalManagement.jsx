@@ -157,7 +157,7 @@ const TerminalManagement = () => {
   }, []);
 
   return (
-    <div className="bg-[#ecedff] py-10 min-h-screen">
+    <div className=" py-10 min-h-screen">
       {/* Banner Section with Motion */}
       <motion.div
         initial={{ opacity: 0, y: -50 }}
@@ -177,7 +177,7 @@ const TerminalManagement = () => {
 
       {/* Offerings Section */}
       <div className="max-w-7xl mx-auto px-4 lg:px-8">
-        <div className="bg-indigo-100 py-10">
+        <div className="bg-white py-10">
           <div className="max-w-6xl mx-auto  shadow-lg rounded-lg p-2">
             <p className="mt-4 text-black leading-relaxed text-lg">
               With nearly 55% of containerized cargo moving into the hinterlands, the demand for efficient logistics solutions has never been greater. ICD have become essential components of the supply chain, serving as vital hubs that facilitate the smooth transfer of goods between various modes of transportation. Recognizing this need, we have established our own Inland Container Depot at Bawal.
@@ -194,7 +194,7 @@ const TerminalManagement = () => {
           {offeringsData.map((offering, index) => (
             <div
               key={index}
-              className={`bg-alice-blue shadow-lg rounded-lg p-8 flex items-center space-x-6 transform transition-transform duration-500 ${animate ? 'slide-in' : ''}`}
+              className={`bg-white shadow-lg rounded-lg p-8 flex items-center space-x-6 transform transition-transform duration-500 ${animate ? 'slide-in' : ''}`}
             >
               <div className="text-5xl text-[#002D62]">{offering.icon}</div>
               <div className="space-y-4">

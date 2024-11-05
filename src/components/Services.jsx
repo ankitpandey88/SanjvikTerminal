@@ -207,13 +207,13 @@ const ServiceItem = ({ service }) => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
-      className="flex-none w-full h-[400px]" // Full width, fixed height
+      className="flex-none w-full h-[370px]" // Full width, fixed height
     >
-      <div className="relative bg-white border-4 border-gray-200 p-4 rounded-lg shadow-lg hover:shadow-2xl transition-all hover:border-[#00308F] transform hover:scale-105 overflow-hidden h-full">
+      <div className="relative bg-white border-4 border-gray-200 p-2 rounded-lg shadow-lg hover:shadow-2xl transition-all hover:border-[#00308F] transform hover:scale-105 overflow-hidden h-full">
         <img 
           src={service.image} 
           alt={service.title} 
-          className="w-full h-64 object-cover transition-transform duration-300 transform hover:scale-110"
+          className="w-full h-56 object-cover transition-transform duration-300 transform hover:scale-110"
         />
         <div className="absolute inset-0 bg-black opacity-0 hover:opacity-50 transition-opacity duration-300"></div>
         <div className="relative z-10">

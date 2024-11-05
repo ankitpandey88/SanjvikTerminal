@@ -61,7 +61,7 @@ const WarehouseServicesComponent = () => {
           <h1 className="text-white text-5xl md:text-6xl font-extrabold drop-shadow-lg">Warehousing</h1>
         </div>
       </motion.div>
-      <div className="bg-indigo-100 py-8 ">
+      <div className="bg-white py-8 ">
         <div className="max-w-6xl mx-auto  shadow-lg rounded-lg p-4">
           
           <p className="mt-4 text-black leading-relaxed text-lg">

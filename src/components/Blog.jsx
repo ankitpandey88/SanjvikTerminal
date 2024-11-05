@@ -8,24 +8,24 @@ const BlogSection = () => {
   const blogPosts = [
     {
       id: 1,
-      date: '26 Oct',
-      title: 'Trends in Freight Transportation & the COVID-19 Impact',
-      description: 'Latest News',
-      image: '/landingPage/blog1.avif',
+      date: '27 Aug',
+      title: 'The Role of Inland Container Depot (ICD) in Streamlining India  Supply Chain',
+     
+      image: '/Banners/Blog 1.jpeg',
     },
     {
       id: 2,
-      date: '26 Oct',
-      title: 'Named a Finalist For Year 2019 Best Choice Award',
-      description: 'How all this mistaken idea of denouncing pleasure and praising pain was...',
-      image: '/landingPage/blog2.avif',
+      date: '19 Sep',
+      title: ' How multi-modal transportation at Sanjvik Terminals enhances logistics efficiency',
+      // description: 'How all this mistaken idea of denouncing pleasure and praising pain was...',
+      image: '/Banners/Blog 2.jpeg',
     },
     {
       id: 3,
       date: '26 Oct',
-      title: 'Conditions for Applying C/O for Transited Goods',
-      description: 'How all this mistaken idea of denouncing pleasure and praising pain was...',
-      image: '/landingPage/blog3.avif',
+      title: 'How multi-modal transportation at Sanjvik Terminals enhances logistics efficiency',
+      // description: 'How all this mistaken idea of denouncing pleasure and praising pain was...',
+      image: '/Banners/Blog 3.png',
     },
   ];
 
