@@ -8,7 +8,7 @@ function Hero() {
   return (
     <section
       className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: "url('./landingPage/sanjvik banner (1).png')" }}
+      style={{ backgroundImage: "url('/Banners/Homepage-Banner.svg')" }}
       id="home"
       aria-label="home"
     >
