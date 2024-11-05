@@ -52,7 +52,7 @@ const WarehouseServicesComponent = () => {
         className="relative  w-full"
       >
         <img
-          src="/Banners/Warehousing Banner.svg"
+          src="/Banners/Warehousing.jpg"
           alt="Custom Clearance"
           className="w-full h-[80vh] object-cover"
         />

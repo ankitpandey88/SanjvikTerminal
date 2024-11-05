@@ -63,7 +63,7 @@ const services = [
   {
     title: 'Multi-model Transportation',
     description: 'Our aim is to optimize and improve your supply chain.',
-    image: './landingPage/truck-1.jpg',
+    image: './Banners/Multimodal.jpg',
     url: '/multi-model-transportation' // Add URL for this service
   },
   {

@@ -6,25 +6,25 @@ import { FaRoad, FaShip, FaPlane, FaTrain } from 'react-icons/fa';
 
 const connectivityOptions = [
   {
-    icon: <FaShip className="text-[#00308F] text-6xl flex ml-16 item-center" />,
+    icon: <FaShip className="text-[#00308F] text-6xl flex ml-20 item-center" />,
     title: 'Proximity Ports',
     description:
       'Exceptional connectivity to major ports such as Mundra, Pipavav, and JNPT, facilitating seamless cargo movement.',
   },
   {
-    icon: <FaPlane className="text-[#00308F] ml-16 text-6xl" />,
+    icon: <FaPlane className="text-[#00308F] ml-20 text-6xl" />,
     title: 'Air Cargo Efficiency',
     description:
       'Close proximity to Indira Gandhi International Airport (DEL) enhances air freight handling efficiency.',
   },
   {
-    icon: <FaRoad className="text-[#00308F] ml-16 text-6xl" />,
+    icon: <FaRoad className="text-[#00308F] ml-20 text-6xl" />,
     title: 'Highway Access',
     description:
       'Located near NH-48 and NH-71, providing easy road access to northern and western India.',
   },
   {
-    icon: <FaTrain className="text-[#00308F] ml-16 text-6xl" />,
+    icon: <FaTrain className="text-[#00308F] ml-20 text-6xl" />,
     title: 'Railway Connectivity',
     description:
       'Direct connectivity to the Western Dedicated Freight Corridor (WDFC) and Indian Railways ensures swift rail transport.',

@@ -215,19 +215,22 @@ function Career() {
           </h1>
         </div>
       </motion.div>
-      <div className="bg-black bg-opacity-55 p-4   rounded-md space-y-4">
-           
-           <p className='text-white ml-32 text-2xl'> Explore our current job openings and take the next step in your career with Sanjvik Terminals</p>
-      
-         </div>
+     
 
       {/* Application Form */}
       <div
         className="min-h-screen flex items-center justify-center bg-cover bg-center"
         style={{ backgroundImage: `url('Banners/business-people-blue-background.jpg')` }}
       >
-        <div className="bg-white bg-opacity-90 p-8 rounded-lg shadow-lg max-w-3xl w-full">
-          <h1 className="text-3xl font-semibold mb-6 text-center text-gray-800">
+
+        
+        <div className="bg-white bg-opacity-90 mt-4 p-8 rounded-lg shadow-lg max-w-3xl w-full">
+        <div className="bg-black bg-opacity-55   rounded-md space-y-4">
+           
+           <p className='text-white ml-32 mb-4 text-2xl'> Explore our current job openings and take the next step in your career with Sanjvik Terminals</p>
+      
+         </div> 
+          <h1 className="text-3xl font-semibold mb-8 text-center text-gray-800">
             Join Our Team
           </h1>
           <form onSubmit={handleSubmit} className="grid grid-cols-1 gap-4">

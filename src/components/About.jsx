@@ -67,7 +67,7 @@ const CompanySection = () => {
         <div className="relative flex justify-center md:justify-end items-center">
           <div className="w-full max-w-xs md:max-w-md lg:max-w-lg">
             <img
-              src="/Banners/who we are (1).svg"
+              src="/Banners/who we are.jpg"
               alt="Sanjvik Terminals"
               className={`w-full h-[80vh] rounded-xl shadow-2xl ml-20 transform transition-transform duration-1000 ${
                 isImageVisible ? "scale-100" : "scale-0"

@@ -130,13 +130,13 @@ const MultimodelTransport = () => {
         className="relative mb-12 w-full"
       >
         <img
-          src="/Banners/Multi Modal - Banner.svg"
+          src="/Banners/Multimodal.jpg"
           alt="Multimodal Transportation"
           className="w-full h-[80vh] object-cover"
         />
         <div className="absolute inset-0 bg-indigo-900 opacity-30 rounded-lg"></div>
         <div className="absolute inset-0 flex items-center justify-center text-center">
-          <h1 className="text-white text-5xl md:text-6xl font-extrabold drop-shadow-lg">Multi-Model Transportation</h1>
+          <h1 className="text-white text-5xl md:text-6xl font-extrabold drop-shadow-lg">Multi-Modal Transportation</h1>
         </div>
       </motion.div>
 

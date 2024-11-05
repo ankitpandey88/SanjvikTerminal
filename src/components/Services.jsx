@@ -234,9 +234,9 @@ const ServiceItem = ({ service }) => {
 
 const services = [
   {
-    title: 'Multi-model Transportation',
+    title: 'Multi-modal Transportation',
     description: '',
-    image: './Banners/Multi Modal - Banner.svg',
+    image: './Banners/Multimodal.jpg',
     url: '/multi-modal-transportation' // Add URL for this service
   },
   {

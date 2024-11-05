@@ -16,7 +16,7 @@ const OurFacilities = () => {
         className="relative w-full"
       >
         <img
-          src="/Banners/Our Facility.svg"
+          src="/Banners/sanjvik banner (1).png"
           alt="Our Facility"
           className="w-full h-[80vh] object-cover"
         />
