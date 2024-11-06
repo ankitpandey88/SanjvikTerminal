@@ -30,7 +30,7 @@ const MainOverviews = () => {
           <img
             src="/Banners/Vision Mission Banner.png"
             alt="Custom Clearance"
-            className="w-full h-[29rem] object-cover"
+            className="w-full h-[80vh] object-cover"
           />
           <div className="absolute inset-0 bg-indigo-900 opacity-30 rounded-lg"></div>
         </motion.div>

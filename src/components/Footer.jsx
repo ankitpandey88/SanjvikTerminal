@@ -126,7 +126,7 @@ const Footer = () => {
           <div className="footer-brand text-center md:text-left">
             <Link to="/" className="flex justify-center md:justify-start items-center text-black text-2xl font-bold no-underline">
               <img
-                src="./landingPage/mainlog.png"
+                src="./Banners/sanjvik logo.png"
                 alt="Logo"
                 className="w-58 h-14 mr-2 mt-2"
               />
@@ -146,6 +146,7 @@ const Footer = () => {
               <li>
                 <a href="https://x.com/SanjvikTerminal" className="text-black text-2xl p-3 hover:text-blue-900 transition-all duration-300 ease-in-out">
                   <FaTwitter />
+                 
                 </a>
               </li>
             </ul>

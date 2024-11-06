@@ -264,7 +264,7 @@ function Header() {
       {/* Main Header */}
       <div className='container mx-auto flex justify-between items-center py-1.5'>
         <Link to="/">
-          <img src="/mainlogo.png" alt="logo" className='w-30 h-14 bg-white p-2 rounded-sm' />
+          <img src="/Banners/sanjvik logo.png" alt="logo" className='w-30 h-14 bg-white p-2 rounded-sm' />
         </Link>
 
         <nav className='hidden lg:flex space-x-8 text-lg'>

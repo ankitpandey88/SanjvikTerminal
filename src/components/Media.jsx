@@ -126,7 +126,7 @@ const Media = () => {
     <section className="bg-white py-10">
       <div className="container mx-auto px-4">
         {/* Section Header */}
-        <div className="flex justify-between ml-64 items-center">
+        <div className="flex justify-between ml-96 items-center">
          
           <h2 className="text-4xl font-bold">Latest From Our Blog Post</h2>
          

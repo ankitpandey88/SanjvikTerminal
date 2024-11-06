@@ -18,7 +18,7 @@ const AboutDetails = () => {
         className="relative  w-full"
       >
         <img
-          src="/Banners/about us.svg"
+          src="/Banners/ABOUT US.png"
           alt="about us"
           className="w-full h-[80vh] object-cover"
         />
