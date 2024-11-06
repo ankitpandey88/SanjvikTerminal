@@ -142,10 +142,17 @@ const MultimodelTransport = () => {
 
       {/* Modified Paragraph Section with Full Width */}
       <div className="bg-white py-10">
-        <div className=" p-2">
+        {/* <div className=" p-2">
           <p className="mt-4 text-black leading-relaxed text-lg">
             At Sanjvik Terminals, we specialize in offering comprehensive multi-modal transportation solutions, seamlessly integrating road, rail and sea transport to meet the unique needs of our customers. This integrated approach allows us to offer flexible and cost-effective solutions that optimize logistics operations. Our strategic location and advanced infrastructure enable us to ensure smooth transitions between different modes of transport. One of the key advantages of our multi-modal transportation service is our ability to provide seamless first-mile and last-mile connectivity.
           </p>
+        </div> */}
+        <div className="bg-white py-10">
+          <div className="max-w-6xl mx-auto  shadow-lg rounded-lg p-2">
+            <p className="mt-4 text-black leading-relaxed text-lg">
+            At Sanjvik Terminals, we specialize in offering comprehensive multi-modal transportation solutions, seamlessly integrating road, rail and sea transport to meet the unique needs of our customers. This integrated approach allows us to offer flexible and cost-effective solutions that optimize logistics operations. Our strategic location and advanced infrastructure enable us to ensure smooth transitions between different modes of transport. One of the key advantages of our multi-modal transportation service is our ability to provide seamless first-mile and last-mile connectivity.
+            </p>
+          </div>
         </div>
       </div>
       

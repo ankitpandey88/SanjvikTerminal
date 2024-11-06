@@ -246,7 +246,7 @@ function Header() {
       <section className='bg-gray-700 py-2'>
         <div className='container mx-auto flex justify-between'>
           <div className="flex items-start space-x-2">
-            <span className="text-sm font-bold text-white">SANJVIK TERMINAL PVT.LTD</span>
+            {/* <span className="text-sm font-bold text-white">SANJVIK TERMINAL PVT.LTD</span> */}
           </div>
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2 text-white">
