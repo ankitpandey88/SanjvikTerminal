@@ -352,7 +352,7 @@ function Header() {
           <Link to="/environmental-policy" className={linkClasses}>Environmental Policy</Link>
 
           {/* Media -> Redirect to /media-releases */}
-          <Link to="/media-releases" className={linkClasses}>Blogs</Link>
+          <Link to="/blogs" className={linkClasses}>Blogs</Link>
 
           {/* Careers */}
           <Link to="/careers" className={linkClasses}>Careers</Link>

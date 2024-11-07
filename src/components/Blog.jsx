@@ -2,7 +2,8 @@
 
 
 import React from 'react';
-import { FiArrowRight, FiArrowLeft } from 'react-icons/fi';
+import { FiArrowRight, FiArrowLeft } from 'react-icons/fi'
+import { Link } from 'react-router-dom';
 
 const BlogSection = () => {
   const blogPosts = [
@@ -10,6 +11,7 @@ const BlogSection = () => {
       id: 1,
       date: '27 Aug',
       title: 'The Role of Inland Container Depot (ICD) in Streamlining India  Supply Chain',
+      link:'/blog1',
      
       image: '/Banners/Blog 1.jpeg',
     },
@@ -17,14 +19,14 @@ const BlogSection = () => {
       id: 2,
       date: '19 Sep',
       title: ' How multi-modal transportation at Sanjvik Terminals enhances logistics efficiency',
-      // description: 'How all this mistaken idea of denouncing pleasure and praising pain was...',
+      link:'/blog2',
       image: '/Banners/Blog 2.jpeg',
     },
     {
       id: 3,
       date: '26 Oct',
       title: 'How multi-modal transportation at Sanjvik Terminals enhances logistics efficiency',
-      // description: 'How all this mistaken idea of denouncing pleasure and praising pain was...',
+      link:'/blog3',
       image: '/Banners/Blog 3.png',
     },
   ];
@@ -68,9 +70,13 @@ const BlogSection = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-3">{post.title}</h3>
                 <p className="text-gray-600 mb-4">{post.description}</p>
-                <button className="text-[#00308F] font-semibold flex items-center">
+                {/* <button className="text-[#00308F] font-semibold flex items-center">
                   MORE DETAILS <FiArrowRight className="ml-2" />
-                </button>
+                </button> */}
+                  <Link to={post.link} className="text-[#00308F] font-semibold flex items-center">
+                  MORE DETAILS <FiArrowRight className="ml-2" />
+                </Link>
+                
               </div>
             </div>
           ))}

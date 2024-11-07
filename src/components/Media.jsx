@@ -1,77 +1,15 @@
 
 
 
-// import React from 'react';
-// import { FaMicrophone, FaNewspaper } from 'react-icons/fa';
-// import Footer from './Footer';
-
-// const Media = () => {
-//   // Sample data for media releases
-//   const mediaReleases = [
-//     {
-//       title: 'Press Conference: New Product Launch',
-//       date: 'January 15, 2024',
-//       description: 'Join us for an exclusive press conference about our upcoming product launch, featuring key insights and announcements.',
-//       mediaType: 'Press Conference',
-//       icon: <FaMicrophone className="text-4xl text-[#00308F]" />,
-//     },
-//     {
-//       title: 'Digital Print: Sustainability Report',
-//       date: 'March 10, 2024',
-//       description: 'A detailed digital report on our latest efforts towards sustainability and green technology adoption.',
-//       mediaType: 'Digital Print',
-//       icon: <FaNewspaper className="text-4xl text-[#00308F]" />,
-//     },
-//     {
-//       title: 'Press Conference: Partnership Announcement',
-//       date: 'July 22, 2024',
-//       description: 'We are announcing an exciting new partnership with a global leader in logistics. Join us for the details.',
-//       mediaType: 'Press Conference',
-//       icon: <FaMicrophone className="text-4xl text-[#00308F]" />,
-//     },
-//   ];
-
-//   return (
-//    <div>
-//       <div className="bg-gray-50 min-h-screen p-8">
-//       <div className="max-w-6xl mx-auto">
-//         <h1 className="text-4xl font-bold text-[#00308F] text-center mb-10">Media Releases</h1>
-
-//         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-//           {mediaReleases.map((release, index) => (
-//             <div key={index} className="bg-white shadow-lg rounded-lg p-6 hover:shadow-xl transition-shadow">
-//               <div className="flex items-center space-x-4 mb-4">
-//                 {release.icon}
-//                 <h2 className="text-2xl font-semibold text-[#00308F]">{release.title}</h2>
-//               </div>
-//               <p className="text-gray-500">{release.date}</p>
-//               <p className="mt-4 text-gray-700">{release.description}</p>
-//               <div className="mt-4">
-//                 <span className="inline-block bg-[#00308F] text-white text-sm font-bold px-3 py-1 rounded">
-//                   {release.mediaType}
-//                 </span>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//     <Footer/>
-//    </div>
-//   );
-// };
-
-// export default Media;
-
-
 
 
 
 import React from 'react';
 
-import { motion } from 'framer-motion'; // For adding dynamic animations
+import { motion } from 'framer-motion'; 
 import Footer from '../components/Footer';
 import { FiArrowRight, FiArrowLeft } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 const Media = () => {
 
@@ -82,6 +20,7 @@ const Media = () => {
       title: 'The Role of Inland Container Depot (ICD) in Streamlining India  Supply Chain',
       description: 'Ever wondered how an Inland Container Depot (ICD) located miles away from seaports could revolutionize a nation s supply chainv What makes inland facilities critical to enhancing trade efficiency  If yes, then you are definitely not the only one asking how businesses can move their shipments so efficiently from areas far away  from the coast. Get ready to discover the answers to how these facilities are changing the landscape of logistics',
       image: '/Banners/Blog 1.jpeg',
+      link:'/blog1'
     },
     {
       id: 2,
@@ -89,6 +28,7 @@ const Media = () => {
       title: ' How multi-modal transportation at Sanjvik Terminals enhances logistics efficiency',
       description: 'As industries expand, the demand for more efficient and cost-effective logistics solutions has increased more than ever. At the heart of this evolution lies multimodal transportation, a system that has revolutionized the way goods are transported. Sanjvik Terminals Pvt. Ltd. operated Inland Container Depot (ICD) at Bawal, strategically positioned near key industrial zones in northern India, has embraced this approach, significantly boosting logistics efficiency',
       image: '/Banners/Blog 2.jpeg',
+      link:'/blog2'
     },
     {
       id: 3,
@@ -96,6 +36,7 @@ const Media = () => {
       title: 'How multi-modal transportation at Sanjvik Terminals enhances logistics efficiency',
       description: 'In the global economy, businesses across industries are constantly seeking ways to optimize their logistics operations, reduce costs, improve delivery times and provide better services to customers. At the heart of this process are inland container depot widely known as dry port that store, handle and facilitate the movement of containers along the supply chain. One standout player in this field is ICD, Bawal, operated by Sanjvik Terminals Pvt. Ltd., renowned for its reliable services that drive supply chain efficiency.',
       image: '/Banners/Blog 3.png',
+      link:'/blog2'
     },
   ];
   return (
@@ -155,9 +96,12 @@ const Media = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-3">{post.title}</h3>
                 <p className="text-gray-600 mb-4">{post.description}</p>
-                <button className="text-[#00308F] font-semibold flex items-center">
+                {/* <button className="text-[#00308F] font-semibold flex items-center">
                   MORE DETAILS <FiArrowRight className="ml-2" />
-                </button>
+                </button> */}
+                <Link to={post.link} className="text-[#00308F] font-semibold flex items-center">
+                  MORE DETAILS <FiArrowRight className="ml-2" />
+                </Link>
               </div>
             </div>
           ))}

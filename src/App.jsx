@@ -79,6 +79,9 @@ import OurFacilities from './pages/OurFacality';
 import MainOverviews from './components/MainOverview';
 import ScrollToTop from './components/ScrollToTop'; // Import the ScrollToTop component
 import MultimodelTransport from './pages/MultiModel';
+import Blog1 from './pages/Blog1';
+import Blog2 from './pages/Blog2';
+import Blog3 from './pages/Blog3';
 
 function App() {
   return (
@@ -90,7 +93,7 @@ function App() {
         <Route path="/tariffs-overview" element={<Traffic />} />
         <Route path="/careers" element={<Career />} /> 
         <Route path="/environmental-policy" element={<Policys />} /> 
-        <Route path="/media-releases" element={<Media />} /> 
+        <Route path="/blogs" element={<Media />} /> 
         <Route path="/contact-us" element={<Contacts />} />
         <Route path="/multi-modal-transportation" element={<MultimodelTransport />} />
         <Route path="/terminal-management" element={<TerminalManagement />} />
@@ -102,6 +105,9 @@ function App() {
         <Route path="/overview" element={<MainOverview />} />
         <Route path="/facility" element={<OurFacilities />} />
         <Route path="/vision-mission-value" element={<MainOverviews />} />
+        <Route path="/blog1" element={<Blog1 />} />
+        <Route path="/blog2" element={<Blog2 />} />
+        <Route path="/blog3" element={<Blog3 />} />
       </Routes>
       <ScrollToTop /> {/* Include the ScrollToTop button */}
     </Router>

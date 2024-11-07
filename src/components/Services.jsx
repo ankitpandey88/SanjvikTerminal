@@ -11,7 +11,7 @@ const ServiceSection = () => {
         <div className="container mx-auto text-center">
           <p className="text-[#00308F] uppercase font-bold text-4xl mb-2">Our Services</p>
           <p className="text-lg mb-12">
-            Sanjvik Terminals Pvt is one of the leading Inland Container Depots (ICD)
+          Sanjvik Terminals Pvt. Ltd is one of the leading Inland Container Depots (ICD)
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
             {services.map((service, index) => (
