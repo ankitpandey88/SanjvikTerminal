@@ -106,7 +106,7 @@ const AboutDetails = () => {
         <div className="max-w-6xl mx-auto  shadow-lg rounded-lg p-4">
           
           <p className="mt-4 text-black leading-relaxed text-lg">
-          Effective connectivity is crucial to logistics and Sanjvik Terminals recognizes its pivotal role. It is seamlessly connected by rail to the Gateway Ports of Mundra, Pipavav and JNPT, the largest and most significant ports in India, ensuring seamless cargo connectivity. This connectivity is enhanced through a strategic partnership with IndiaLinx, a subsidiary of the esteemed APL Group of Singapore. This collaboration ensures reliable and efficient rail transportation services for the smooth and timely movement of cargo. By leveraging this extensive connectivity, it delivers a streamlined logistics experience, effectively reducing transit times and improving supply chain efficiency.
+          Effective connectivity is crucial to logistics and Sanjvik Terminals recognizes its pivotal role. It is seamlessly connected by rail to the Gateway Ports of Mundra, Pipavav and JNPT, the largest and most significant ports in India, ensuring seamless cargo connectivity. This connectivity is enhanced through a strategic partnership with Pristine Logistics for our Exim rail a subsidiary of the esteemed APL Group of Singapore. This collaboration ensures reliable and efficient rail transportation services for the smooth and timely movement of cargo. By leveraging this extensive connectivity, it delivers a streamlined logistics experience, effectively reducing transit times and improving supply chain efficiency.
 
           </p>
           

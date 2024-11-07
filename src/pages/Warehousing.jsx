@@ -68,7 +68,7 @@ const WarehouseServicesComponent = () => {
           Sanjvik Terminals provides state-of-the-art warehousing facilities that are tailored to cater to the diverse storage needs of customers, ensuring seamless storage needs. With 31,000 sq. ft. of optimized storage space, we are fully equipped to handle both transit and domestic requirements.
 
           </p>
-          <p className='mt-4 text-black leading-relaxed text-lf'>
+          <p className='mt-4 text-black leading-relaxed text-lg'>
           We offer an 8,000 sq. ft. bonded warehousing facility dedicated to leasing and a vast 23,000 sq. ft. domestic warehousing space for diverse storage needs. This supports businesses in managing their inventory effectively while enabling seamless logistics operations tailored to meet the demands of both international and domestic markets. Regardless of business size, we offer scalable warehousing solutions, enabling businesses to adapt to their changing storage needs. Our advanced infrastructure and customized storage solutions streamline processes to ensure quick turnaround times, keeping your supply chain agile. We tailor our services to meet the unique needs of your business with transparency and support at every step.
           </p>
         </div>
