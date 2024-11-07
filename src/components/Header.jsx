@@ -297,8 +297,8 @@ function Header() {
             onMouseEnter={() => handleMouseEnter(setServicesDropdownOpen)}
             onMouseLeave={() => handleMouseLeave(setServicesDropdownOpen)}
           >
-            <Link to="/services" className={linkClasses}>
-              Our Services
+            <Link to="#" className={linkClasses}>
+               Services
             </Link>
             {/* Dropdown for Services */}
             {isServicesDropdownOpen && (
