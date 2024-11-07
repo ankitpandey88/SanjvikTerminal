@@ -236,7 +236,7 @@ const services = [
   {
     title: 'Multi-modal Transportation',
     description: '',
-    image: './Banners/Multimodal.jpg',
+    image: './Banners/Multi Modal.png',
     url: '/multi-modal-transportation' // Add URL for this service
   },
   {

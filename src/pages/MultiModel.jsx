@@ -130,7 +130,7 @@ const MultimodelTransport = () => {
         className="relative mb-12 w-full"
       >
         <img
-          src="/Banners/Multimodal.jpg"
+          src="/Banners/Multi Modal.png"
           alt="Multimodal Transportation"
           className="w-full h-[80vh] object-cover"
         />

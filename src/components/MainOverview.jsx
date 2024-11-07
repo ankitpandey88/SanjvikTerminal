@@ -28,7 +28,7 @@ const MainOverviews = () => {
           className="relative  w-full"
         >
           <img
-            src="/Banners/Vision Mission Banner.png"
+            src="/Banners/Mission Vision.png"
             alt="Custom Clearance"
             className="w-full h-[80vh] object-cover"
           />

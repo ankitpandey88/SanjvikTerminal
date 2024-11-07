@@ -166,7 +166,7 @@ const TerminalManagement = () => {
         className="relative w-full"
       >
         <img
-          src="/Banners/Terminal Management - Banner.svg"
+          src="/Banners/Terminal Management.png"
           alt="Terminal Management"
           className="w-full h-[80vh] object-cover"
         />
