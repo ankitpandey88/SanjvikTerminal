@@ -12,6 +12,7 @@ import SanjvikOverview from './Vision';
 import Testimonial from './Testimonial';
 import BlogSection from './Blog';
 import GroupOfCompany from '../pages/GroupOfCompany';
+import OurCompany from './GroupOfCompany';
 
 function LandingPage() {
   return (
@@ -27,6 +28,7 @@ function LandingPage() {
         <GroupOfCompany/>
       
         {/* <Testimonial/> */}
+        <OurCompany/>
         <BlogSection/>
         
         <Footer/>

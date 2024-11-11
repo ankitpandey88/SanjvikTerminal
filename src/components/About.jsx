@@ -34,14 +34,7 @@ const CompanySection = () => {
           </h2>
 
           <p className="text-black text-lg max-w-lg leading-relaxed">
-           Sanjvik Terminals Pvt. Ltd. is a dry port located in Bawal, Haryana.
-            One of the leading Inland Container Depots (ICD) in the Northern
-            region of the country. Our facility serves as a vital hinterland
-            hub, seamlessly connecting major industrial zones. We are equipped
-            with state-of-the-art infrastructure tailored to handle high volumes
-            of containers with precision. Our integrated management systems
-            ensure seamless handling, from the efficient movement of cargo to
-            its timely delivery.
+          Sanjvik Terminals Pvt. Ltd., a group company of Om Logistics Limited, operates as a premier dry port in Bawal, Haryana. It is one of the leading Inland Container Depots (ICD) in the country's northern region. The facility serves as a vital hinterland hub, seamlessly connecting major industrial zones. We are equipped with state-of-the-art infrastructure tailored to handle high volumes of containers with precision. Our integrated management systems ensure seamless handling, from the efficient movement of cargo to its timely delivery.
           </p>
           <p className="text-black text-lg max-w-lg leading-relaxed">
           These integrated systems are continuously monitored and upgraded to
